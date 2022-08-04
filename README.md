@@ -30,7 +30,14 @@ igfxonln=1引导参数（force-online设备属性）强制所有显示器上的�
 igfxrpsc=1启动参数（rps-control属性）以启用 RPS 控制补丁（提高 IGPU 性能）。
 ``` 
 
+## 资源链接
+
+- [occ](https://mackie100projects.altervista.org/occ-changelog-version-2-52-0-1/)
+- [hackintool](https://github.com/headkaze/Hackintool/releases)
+- [故障排错](https://apple.sqlsec.com/10-%E6%8E%92%E9%94%99/)
+- [核显驱动](https://billy233.github.io/post/WhateverGreen) 
+
 ## 感谢
 
-- [csrutil](https://github.com/csrutil)
+- [shuai132](https://github.com/shuai132)
 
