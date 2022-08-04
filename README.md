@@ -36,6 +36,7 @@ igfxrpsc=1启动参数（rps-control属性）以启用 RPS 控制补丁（提高
 - [hackintool](https://github.com/headkaze/Hackintool/releases)
 - [故障排错](https://apple.sqlsec.com/10-%E6%8E%92%E9%94%99/)
 - [核显驱动](https://billy233.github.io/post/WhateverGreen) 
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases) 
 
 ## 感谢
 
