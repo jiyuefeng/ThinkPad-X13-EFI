@@ -20,6 +20,10 @@
 - [x] 点亮笔记本内屏
 - [x] 声卡未驱动
 
+## 2022-08-08
+
+- [x] 修复oc文件不匹配问题
+
 > NVRAM 7C436110-AB2A-4BBB-A880-FE41995C9F82  Delete boot-args 禁用nvram缓存
 
 ```
@@ -35,6 +39,7 @@ igfxrpsc=1启动参数（rps-control属性）以启用 RPS 控制补丁（提高
 - [occ](https://mackie100projects.altervista.org/occ-changelog-version-2-52-0-1/)
 - [hackintool](https://github.com/headkaze/Hackintool/releases)
 - [故障排错](https://apple.sqlsec.com/10-%E6%8E%92%E9%94%99/)
+- [修改引导顺序](https://www.bilibili.com/video/av253155618?vd_source=04caba585ca7bdfaaa754f610e08a663)
 - [核显驱动](https://billy233.github.io/post/WhateverGreen) 
 - [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools/releases) 
 

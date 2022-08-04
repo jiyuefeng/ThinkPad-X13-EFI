@@ -211,6 +211,20 @@
                     <data>AQAAAA==</data>
                     <key>force-online</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>BQAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-busid</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAgAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
@@ -819,7 +833,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>Name</key>
-                    <string>ubuntu</string>
+                    <string>Ubuntu</string>
                     <key>Path</key>
                     <string>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)/NVMe(0x1,9C-95-5E-45-8B-44-1B-00)/HD(1,GPT,138A12E4-1972-4C60-9953-E0B6329002B1,0x800,0x82000)/\EFI\ubuntu\grubx64.efi</string>
                     <key>TextMode</key>
@@ -897,7 +911,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>debug=0x100 keepsyms=1 igfxonln=1 igfxrpsc=1 igfxfw=2 -alcdbg -liludbg alcid=18</string>
+                    <string>debug=0x100 keepsyms=1 igfxonln=1 igfxrpsc=1 igfxfw=2 -alcdbg -liludbg alcid=11</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -985,12 +999,6 @@
                 <integer>10</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
-                <key>PointerPollMask</key>
-                <integer>-1</integer>
-                <key>PointerPollMax</key>
-                <integer>0</integer>
-                <key>PointerPollMin</key>
-                <integer>0</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1002,23 +1010,19 @@
                 <integer>0</integer>
                 <key>AudioDevice</key>
                 <string></string>
-                <key>AudioOutMask</key>
-                <integer>-1</integer>
+                <key>AudioOut</key>
+                <integer>0</integer>
                 <key>AudioSupport</key>
                 <false/>
-                <key>DisconnectHda</key>
-                <false/>
-                <key>MaximumGain</key>
-                <integer>-15</integer>
-                <key>MinimumAssistGain</key>
-                <integer>-30</integer>
-                <key>MinimumAudibleGain</key>
-                <integer>-128</integer>
+                <key>MinimumVolume</key>
+                <integer>0</integer>
                 <key>PlayChime</key>
                 <string>Disabled</string>
                 <key>ResetTrafficClass</key>
                 <false/>
                 <key>SetupDelay</key>
+                <integer>0</integer>
+                <key>VolumeAmplifier</key>
                 <integer>0</integer>
             </dict>
             <key>ConnectDrivers</key>
@@ -1091,8 +1095,6 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
-                <key>ReconnectGraphicsOnConnect</key>
-                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1103,8 +1105,6 @@
                 <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
-                <key>UIScale</key>
-                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
@@ -1154,8 +1154,6 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
-                <false/>
-                <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
